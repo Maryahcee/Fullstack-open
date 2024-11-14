@@ -12,9 +12,9 @@ participant Server
  Server->>Browser: JSON responds with success message
  deactivate Server
 
-  Note right of Browser: JavaScript adds the new note to the displayed list dynamically
+  Note right of Browser: JavaScript adds the new note  dynamically
 
-  Note right of Browser: Browser update notes list without reloading page
+  Note right of Browser: Browser updates notes list without reloading page
 
 
 
