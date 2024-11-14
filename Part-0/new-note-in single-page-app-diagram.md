@@ -6,7 +6,8 @@ participant Server
 
  Note right of Browser: User enters a new note and clicks "Save"
 
- Browser->>Server: Post https://studies.cs.helsinki.fi/exampleapp/spa/new_note
+ Browser->>Server: Post https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
  activate Server
  Server->>Browser: JSON responds with success message
  deactivate Server
